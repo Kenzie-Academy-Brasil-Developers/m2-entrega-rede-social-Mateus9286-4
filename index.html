@@ -1,12 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/component.css" />
+    <link rel="stylesheet" href="./src/styles/global.css">
+    <link rel="stylesheet" href="./src/styles/Buttons.css" />
+    <link rel="stylesheet" href="./src/styles/inputs.css" />
+    <link rel="stylesheet" href="./src/styles/Modal.css" />
+    <link rel="stylesheet" href="./src/styles/home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./src/scripts/database/posts.js"></script>
+    <script defer src="./src/scripts/database/users.js"></script>
+    <script defer src="./src/scripts/database/sugestUsers.js"></script>
+    <script defer src="./src/scripts/models/Modal.js"></script>
+    <script defer type="module" src="./src/scripts/index.js"></script>
+
     <title>Rede Social</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="./src/assets/TechPosters (1).png"
+        alt="TechPosters"
+      />
+      <a class="Sair">Sair</a>
+    </header>
+    <main class="marge">
+      <div class="perfil">
+        <picture>
+          <img class="img" src="https://picsum.photos/200" alt="FotoPerfil" />
+        </picture>
+        <div class="perfilInfo">
+          <h1 class="nome">Mateus Rossi</h1>
+          <p class="profiçao">Develop</p>
+        </div>
+      </div>
+      <form>
+        <input type="text" placeholder="  Digitar título do post" />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="  Digitar descrição do post"
+        ></textarea>
+        <button class="btnPostar">Postar</button>
+      </form>
+      <div class="Seguir">
+        <h2 class="Sugestoes">Sugestões para você seguir</h2>
+        <div id="Sugestoes" class="containerSeguir"></div>
+      </div>
+      <h2 class="Posts">Posts</h2>
+      <ul></ul>
+      <ul class="containerModal"></ul>
+    </main>
+  </body>
 </html>

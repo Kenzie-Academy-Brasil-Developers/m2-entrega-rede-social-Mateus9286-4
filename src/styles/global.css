@@ -1,0 +1,59 @@
+body{
+	max-width:75rem;
+	margin: 0 auto;
+	align-items: center;
+	display: flex;
+	min-width: 320px;
+}
+
+
+
+@media(min-width:900px){
+
+    .tituloModal{
+        font-size: 1.7rem;
+        margin: 2rem 0;
+    }
+  
+    main{
+        width: 70%;
+    }
+
+    .Seguir{
+    position: fixed;
+    right: 40px;
+    top: 50px;
+    }
+
+    .containerSeguir{
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .perfilModal{
+        width: 50vw;
+        height: 80vh;
+        padding: auto;
+    }
+
+    .containerModal{
+        height:100vh;
+        width: 100vw;
+    }
+
+    .btnSeguir{
+    position: relative;
+    top: -50px;
+    right: -180px; 
+    } 
+
+    .Posts{
+        margin-top: 70px;
+    }
+
+
+    .Sair{
+        margin-left: 710px;
+    }
+
+}

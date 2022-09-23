@@ -1,0 +1,85 @@
+.btnPostar {
+  height: 38px;
+  width: 69px;
+  border-radius: 4px;
+  padding: 0px 12px 0px 12px;
+  background-color: var(--grey4);
+  color: var(--grey3);
+  cursor: pointer;
+  border: solid 1px var(--WhiteFixed);
+  margin-left: 66%;
+  margin-bottom: 40px;
+  position: absolute;
+  right: 0;
+}
+
+.btnPostar:hover{
+  background-color: var(--brand-1);
+  color: var(--WhiteFixed);
+}
+
+
+.btnSeguir {
+  height: 25px;
+  width: 64px;
+  color: var(--grey1);
+  background-color: var(--WhiteFixed);
+  border: solid 1px var(--grey1);
+  padding: 0 10px;
+  position: relative;
+  top: 24px;
+  right: 62px;
+  font-family: var(--inter);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: solid 1px var(#212529);
+  color: var(--grey1);
+  cursor: pointer;
+}
+
+.AbrirPost {
+  height: 38px;
+  width: 92px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+  padding: 0px 12px 0px 12px;
+  background-color: var(--grey1);
+  color: var(--WhiteFixed);
+  border: solid 1px var(--WhiteFixed);
+  cursor: pointer;
+}
+
+.AbrirPost:hover {
+  border: solid 1px var(--grey1);
+}
+
+.like {
+  display: flex;
+  align-items: center;
+}
+
+.btnFechar{
+  position: absolute;
+  top: 0 ;
+  right: 0;
+  height: 40px;
+  width: 40px;
+  border-radius: 150px;
+  color: var(--grey3);
+  background-color: var(--grey5);
+  border: solid 1px var(--grey5);
+  cursor: pointer;
+  }
+  
+
+
+.margin{
+    margin-left: 30px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
